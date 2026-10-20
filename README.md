@@ -4,11 +4,11 @@
 [![Status](https://img.shields.io/badge/Status-Public_Archive-inactive.svg)]()
 [![Manual](https://img.shields.io/badge/User_Manual-PDF-red.svg)](x3dna-v1.5.pdf)
 
-**3DNA (v1.5)** (released November 2002) is the foundational version of the **3DNA** suite of programs for the analysis, rebuilding, and visualization of 3D nucleic acid structures, associated with the original 2003 *Nucleic Acids Research* publication.
+**3DNA (v1.5)** (released November 2002) is the foundational version of the **3DNA** suite of programs for the analysis, rebuilding, and visualization of 3D nucleic acid structures, associated with the [original 2003 *Nucleic Acids Research* publication](https://doi.org/10.1093/nar/gkg680).
 
-> **Historical Note & Modern Successors:**  
-> This version of 3DNA is outdated and no longer actively supported, though it continues to function as originally designed. It is preserved on GitHub as an open-source archive for historical reference and for third-party software pipelines that specifically depend on the v1.5 layout (such as **3D-DART**). Its base-pair identification algorithm (`find_pair`) also served as the underlying engine for **RNAView**.  
->  
+> **Historical Note & Modern Successors:**
+> This version of 3DNA is outdated and no longer actively supported, though it continues to function as originally designed. It is preserved on GitHub as an open-source archive for historical reference and for third-party software pipelines that specifically depend on the v1.5 layout (such as [**3D-DART**](https://doi.org/10.1093/nar/gkp287)). Its base-pair identification algorithm (`find_pair` and `analyze`) also served as the underlying engine for [**RNAView**](https://github.com/rcsb/RNAView).
+>
 > For the final version of the classic 3DNA suite, see **3DNA v2.4**. For modern nucleic acid structural analysis, modeling, and visualization, **3DNA** has been superseded by [**DSSR**](http://x3dna.org/) and the [**wDSSR** web application](https://web.x3dna-dssr.org).
 
 ---
@@ -17,7 +17,7 @@
 
 Written in strict ANSI C with helper Perl scripts, **3DNA v1.5** introduced several foundational capabilities to structural bioinformatics:
 
-* **Standard Base Reference Frame:** Implements the standard base-centered reference frame recommended by the 1999 Tsukuba Workshop and approved by the IUBMB/IUPAC Joint Commission on Biochemical Nomenclature (Olson et al., 2001), using Horn's unit-quaternion least-squares fitting procedure.
+* **Standard Base Reference Frame:** Implements the standard base-centered reference frame recommended by the 1999 Tsukuba Workshop and approved by the IUBMB/IUPAC Joint Commission on Biochemical Nomenclature ([Olson et al., 2001](https://doi.org/10.1006/jmbi.2001.4987)), using Horn's unit-quaternion least-squares fitting procedure.
 * **Rigorous & Reversible Analysis/Rebuilding:** Follows the matrix-based **CEHS** mathematical formalism (El Hassan & Calladine, 1995; Lu et al., 1997) to compute six local base-pair parameters (*Shear, Stretch, Stagger, Buckle, Propeller, Opening*), six dimeric step parameters (*Shift, Slide, Rise, Tilt, Roll, Twist*), and six local helical parameters (*x-displacement, y-displacement, Helical rise, Inclination, Tip, Helical twist*), enabling exact 3D atomic and block reconstruction.
 * **Automated Base-Pair & Step Classification:** Automatically identifies canonical and non-canonical base pairs (`find_pair`) and classifies dinucleotide steps as A-, B-, or TA-like based on phosphorus ($Z_p$) positioning.
 * **55 Fiber Diffraction Models:** Generates 55 regular DNA and RNA helical structures (`fiber`) for arbitrary sequences following NDB atom naming and ordering conventions.
@@ -46,7 +46,7 @@ For complete documentation—including a step-by-step mathematical walkthrough o
    cd ..
    ```
 
-2. **Configure your shell environment:**  
+2. **Configure your shell environment:**
    Set the environment variable `X3DNA` to point to the installation directory and add `$X3DNA/bin` to your command-line search `PATH`.
 
    **For `bash` / `zsh` (add to `~/.bashrc` or `~/.zshrc`):**
@@ -65,15 +65,15 @@ For complete documentation—including a step-by-step mathematical walkthrough o
 
 ## Citation
 
-If you use or reference **3DNA** in your work, please cite at least one of the primary 3DNA publications:
+If you use or reference **3DNA** in your work, please cite at least one of the following 3DNA publications:
 
-1. **Primary 3DNA Paper (v1.5):**  
+1. **Primary 3DNA Paper (v1.5):**
    Lu, X.-J., & Olson, W. K. (2003). 3DNA: a software package for the analysis, rebuilding and visualization of three-dimensional nucleic acid structures. *Nucleic Acids Research*, 31(17), 5108–5121. [https://doi.org/10.1093/nar/gkg680](https://doi.org/10.1093/nar/gkg680)
 
-2. **3DNA Protocols Paper:**  
+2. **3DNA Protocols Paper:**
    Lu, X.-J., & Olson, W. K. (2008). 3DNA: a versatile, integrated software system for the analysis, rebuilding and visualization of three-dimensional nucleic-acid structures. *Nature Protocols*, 3(7), 1213–1227. [https://doi.org/10.1038/nprot.2008.104](https://doi.org/10.1038/nprot.2008.104)
 
-3. **Standard Base Reference Frame (Tsukuba Workshop):**  
+3. **Standard Base Reference Frame (Tsukuba Workshop):**
    Olson, W. K., Bansal, M., Burley, S. K., Dickerson, R. E., Gerstein, M., Harvey, S. C., Heinemann, U., Lu, X.-J., Neidle, S., Shakked, Z., Sklenar, H., Suzuki, M., Tung, C.-S., Westhof, E., Wolberger, C., & Berman, H. M. (2001). A standard reference frame for the description of nucleic acid base-pair geometry. *Journal of Molecular Biology*, 313(1), 229–237. [https://doi.org/10.1006/jmbi.2001.4987](https://doi.org/10.1006/jmbi.2001.4987)
 
 ### BibTeX
