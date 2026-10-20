@@ -65,7 +65,7 @@ For complete documentation—including a step-by-step mathematical walkthrough o
 
 ## Citation
 
-If you use or reference **3DNA** in your work, please cite at least one of the following 3DNA publications:
+If you use or reference **3DNA** in your work, please cite at least one of the following publications:
 
 1. **Primary 3DNA Paper (v1.5):**
    Lu, X.-J., & Olson, W. K. (2003). 3DNA: a software package for the analysis, rebuilding and visualization of three-dimensional nucleic acid structures. *Nucleic Acids Research*, 31(17), 5108–5121. [https://doi.org/10.1093/nar/gkg680](https://doi.org/10.1093/nar/gkg680)
