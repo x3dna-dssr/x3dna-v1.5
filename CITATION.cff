@@ -1,0 +1,84 @@
+cff-version: 1.2.0
+message: "If you use 3DNA v1.5 in your work, please cite the following publications."
+title: "3DNA (v1.5): A Software Package for the Analysis, Rebuilding and Visualization of 3-Dimensional Nucleic Acid Structures"
+version: "1.5"
+date-released: 2002-11-12
+url: "https://github.com/x3dna-dssr/x3dna-v1.5"
+license: BSD-3-Clause
+authors:
+  - family-names: "Lu"
+    given-names: "Xiang-Jun"
+  - family-names: "Olson"
+    given-names: "Wilma K."
+preferred-citation:
+  type: article
+  title: "3DNA: a software package for the analysis, rebuilding and visualization of three-dimensional nucleic acid structures"
+  authors:
+    - family-names: "Lu"
+      given-names: "Xiang-Jun"
+    - family-names: "Olson"
+      given-names: "Wilma K."
+  journal: "Nucleic Acids Research"
+  volume: 31
+  issue: 17
+  start: 5108
+  end: 5121
+  year: 2003
+  doi: "10.1093/nar/gkg680"
+references:
+  - type: article
+    title: "3DNA: a versatile, integrated software system for the analysis, rebuilding and visualization of three-dimensional nucleic-acid structures"
+    authors:
+      - family-names: "Lu"
+        given-names: "Xiang-Jun"
+      - family-names: "Olson"
+        given-names: "Wilma K."
+    journal: "Nature Protocols"
+    volume: 3
+    issue: 7
+    start: 1213
+    end: 1227
+    year: 2008
+    doi: "10.1038/nprot.2008.104"
+  - type: article
+    title: "A standard reference frame for the description of nucleic acid base-pair geometry"
+    authors:
+      - family-names: "Olson"
+        given-names: "Wilma K."
+      - family-names: "Bansal"
+        given-names: "Manju"
+      - family-names: "Burley"
+        given-names: "Stephen K."
+      - family-names: "Dickerson"
+        given-names: "Richard E."
+      - family-names: "Gerstein"
+        given-names: "Mark"
+      - family-names: "Harvey"
+        given-names: "Stephen C."
+      - family-names: "Heinemann"
+        given-names: "Udo"
+      - family-names: "Lu"
+        given-names: "Xiang-Jun"
+      - family-names: "Neidle"
+        given-names: "Stephen"
+      - family-names: "Shakked"
+        given-names: "Zippora"
+      - family-names: "Sklenar"
+        given-names: "Heinz"
+      - family-names: "Suzuki"
+        given-names: "Masashi"
+      - family-names: "Tung"
+        given-names: "Chang-Shung"
+      - family-names: "Westhof"
+        given-names: "Eric"
+      - family-names: "Wolberger"
+        given-names: "Cynthia"
+      - family-names: "Berman"
+        given-names: "Helen M."
+    journal: "Journal of Molecular Biology"
+    volume: 313
+    issue: 1
+    start: 229
+    end: 237
+    year: 2001
+    doi: "10.1006/jmbi.2001.4987"
